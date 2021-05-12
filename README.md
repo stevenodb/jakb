@@ -1,1 +1,1 @@
-# kb_cegeka_java_architect
+# Java Architect Knowledge Base (jakb)

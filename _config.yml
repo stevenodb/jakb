@@ -29,6 +29,7 @@ url: "https://stevenodb.github.io/jakb.github.io/" # the base hostname & protoco
 
 # Build settings
 # theme: minima
+remote_theme: pmarsceill/just-the-docs
 theme: "just-the-docs"
 search_enabled: true
 aux_links:

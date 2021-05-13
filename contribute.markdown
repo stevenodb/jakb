@@ -56,7 +56,7 @@ Nothing stops you from using regular html links or markdown links
 <a href="https://link/to/page/awesome">read this awesome page</a>
 [read this awesome page](https://link/to/page/awesome)
 ```
-but these links would break when you move files around on the site---as links on the web do. There's a better way to create links that are validated when the site is redeployed. The better way is to use Liquid script to build the link to the source document itself:
+but these links would break when you move files around on the site---as links on the web do. There's a better way to create links that are validated when the site is redeployed: use Liquid script to build the link to the source document itself:
 ```markdown
 [read this awesome page]({% raw %}{{ site.baseurl }}{% link link/to/page/awesome.markdown %}{% endraw %})
 ```

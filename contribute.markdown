@@ -49,6 +49,18 @@ or, alternatively, leaving the front matter completely empty (two triple dashes 
 
 Adding a section (or a _page with children_) is supported and can be nested too. For an explanation, you should [read the fine manual][sections] on this topic.
 
+## Linking to pages within the site
+
+Nothing stops you from using regular html links or markdown links
+```html
+<a href="https://link/to/page/awesome">read this awesome page</a>
+[read this awesome page](https://link/to/page/awesome)
+```
+but these links would break when you move files around on the site---as links on the web do. There's a better way to create links that are validated when the site is redeployed. The better way is to use Liquid script to build the link to the source document itself:
+```markdown
+[read this awesome page]({% raw %}{{ site.baseurl }}{% link link/to/page/awesome.markdown %}{% endraw %})
+```
+
 ## Other features
 
 For a complete list of layouting features we refer to the [complete documentation][] of Just The Docs.

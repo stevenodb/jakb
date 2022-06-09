@@ -69,4 +69,4 @@ For a complete list of layouting features we refer to the [complete documentatio
 [Liquid expressions]: https://jekyllrb.com/docs/liquid/
 [Jekyll variables]: https://jekyllrb.com/docs/variables/
 [sections]: https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/#pages-with-children
-[complete documentation]: https://pmarsceill.github.io/just-the-docs/
+[complete documentation]: https://just-the-docs.github.io/just-the-docs/
